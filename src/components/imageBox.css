@@ -1,0 +1,53 @@
+#imageDiv{
+    position: relative;
+}
+.box{
+position:relative;
+  top:10%;
+  left:10%;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  box-sizing: border-box;
+  animation:schaler 10s;
+  animation-iteration-count: infinite;
+  /* Safari and Chrome*/
+  -webkit-animation:schaler 10s;
+  -webkit-animation-iteration-count: infinite;
+  z-index: 1;
+}
+.boxImage{
+    position:absolute;
+    top:15%;
+    left:15%;
+    z-index: 3;
+    font-size: 30px;
+}
+@keyframes schaler
+  {
+  from {transform: scale(1,1);}
+  40% {transform: scale(0.2,0.2);
+			border-radius:30px;
+			transform:rotate(180deg);
+  }
+  60% {transform: scale(0.2,0.2);
+			border-radius:30px;
+			transform:rotate(-180deg);
+  }
+  to {transform: scale(1,1);}
+ }
+
+/* Safari and Chrome */
+@-webkit-keyframes schaler 
+	{
+  from {-webkit-transform: scale(1,1);}
+  40% {-webkit-transform: scale(0.2,0.2);
+			border-radius:30px;
+			-webkit-transform:rotate(180deg);
+  }
+  60% {-webkit-transform: scale(0.2,0.2);
+			border-radius:30px;
+			-webkit-transform:rotate(-180deg);
+  }
+  to {-webkit-transform: scale(1,1);}
+}
