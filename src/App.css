@@ -1,6 +1,7 @@
 body{
   background-color: #610094;
   color: white;
+  font-family: 'Bakbak One', cursive;
   }
   .App {
     width: 90%;
@@ -11,7 +12,10 @@ body{
 font-size: 30px;
 text-align: center;
 color: white;
-margin: 60px 0 0 0;
+margin: 50px 0 0 0;
+}
+.sectionHeading>h1{
+margin: 0 0 0 0;
 }
 
   /* Navbar  */
@@ -40,6 +44,7 @@ margin: 60px 0 0 0;
     width:50%;
     display:flex;
     justify-content:space-around;
+    margin: auto 0px;
   }
   
   /* Main section */
@@ -75,7 +80,7 @@ margin: 60px 0 0 0;
     font-size: 30px;
     margin: 0px 0px 0px 10%;
   }
-  #loader{
+  .loader{
     text-align: center;
   }
 
@@ -103,7 +108,7 @@ margin: 60px 0 0 0;
 
   /* Projects Section */
   #projects{
-    height: 100vh;
+    height: 130vh;
     background-color: #150050;
     padding: 5px 30px 0 30px;
   }
@@ -113,6 +118,7 @@ margin: 60px 0 0 0;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 20px;
   text-align: center;
+  margin: 0 0;
 }
 .project{
   border: 1px solid white;
@@ -148,15 +154,10 @@ margin: 60px 0 0 0;
   border-radius: 30px;
 }
 .project button:hover{
-  padding: 5px;
-  border: 1px solid transparent;
-  margin: 0px 20px;
-  width: 40%;
-  border-radius: 30px;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 .projectDetail>div>button:nth-child(odd){
-  background-color: #a705ff;
+  background-color: #bb42fc;
 }
 .projectDetail>div>button:nth-child(even){
   background-color: #000000;
@@ -166,14 +167,23 @@ margin: 60px 0 0 0;
 
   /*Contact Section*/
   #contact{
-    height: 90vh;
+    height: 80vh;
     background-color: #3F0071;
+    padding: 5px 30px 0 30px;
   }
+#contactLinks{
+  margin: 10% auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
 
 
   /*Footer Section*/
   #footer{
     height: 10vh;
     background-color: #150050;
+    padding: 5px 30px 0 30px;
   }
 

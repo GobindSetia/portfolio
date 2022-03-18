@@ -1,10 +1,10 @@
-
+import home from "../assets/home.png";
 export const Navbar = () => {
     return (
       <nav>
         <div id="navbar">
             <div id="navbarLeft">
-            <a href="#mainSection">Home</a>
+            <a href="#mainSection"><img src={home} alt="" height={"100%"}/></a>
         </div>
 
           <div id="navbarRight">

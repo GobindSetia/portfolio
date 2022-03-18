@@ -9,7 +9,7 @@ export const Home = () => {
         </div>
         <div id="imageDiv">
           <div class="box"></div>
-          <div class="boxImage">zcsac</div>
+          <div class="boxImage"></div>
         </div>
       </div>
     </section>

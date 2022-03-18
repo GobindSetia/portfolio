@@ -14,7 +14,7 @@ export const About = () => {
         </p>
       </div>
       <div id="techStack">
-        <div id="loader">
+        <div className="loader">
           <span>
             <img
               align="left"

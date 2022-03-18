@@ -7,7 +7,7 @@ import { Projects } from './components/Projects'
 import { Footer } from './components/Footer'
 import { typeWriter } from './utils/typewriter';
 
-setInterval(typeWriter, 70);
+setInterval(typeWriter,100);
 function App() {
   return (
     <div className="App">

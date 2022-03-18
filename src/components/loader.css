@@ -1,4 +1,4 @@
-#loader>span {
+.loader>span {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -10,7 +10,8 @@
   position: relative;
 }
 
-#loader>span::before {
+
+.loader>span::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -24,13 +25,13 @@
 
 
 
-#loader>span:nth-child(odd) {
+.loader>span:nth-child(odd) {
   background-color: #c941ff;
   transform: scale(1);
 }
 
 
-#loader>span:nth-child(even) {
+.loader>span:nth-child(even) {
   background-color: #ffffff;
   transform: scale(1);
 }
@@ -48,7 +49,12 @@
   }
 }
 
-#loader>span>img{
+.loader>span>img{
+  position: absolute;
+  top:10%;
+    left:10%;
+}
+.loader>span>a>img{
   position: absolute;
   top:10%;
     left:10%;
