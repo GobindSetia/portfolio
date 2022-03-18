@@ -5,7 +5,7 @@ body{
   }
   .App {
     width: 90%;
-    margin: auto;
+    margin: 0px auto;
     
   }
 .sectionHeading{
@@ -31,6 +31,7 @@ margin: 0 0 0 0;
     width: 90%;
     left: 5%;
     z-index: 5;
+    justify-content: space-between;
   }
   #navbar a{
     color: #DFF6FF;
@@ -82,6 +83,12 @@ margin: 0 0 0 0;
   }
   .loader{
     text-align: center;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;  
+    align-items: center;
+  justify-content: center;
   }
 
 
@@ -123,7 +130,6 @@ margin: 0 0 0 0;
 .project{
   border: 1px solid white;
   border-radius: 30px;
-  height: 200%;
   background-color: #ffffff;
   color: #000000;
 }
@@ -132,7 +138,7 @@ margin: 0 0 0 0;
   margin: 10px;
 }
 .projectImage{
-  height: 50%;
+  height: 300px;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
 }
@@ -140,11 +146,13 @@ margin: 0 0 0 0;
   background-image: url("./assets/travelocity-clone.png") ;
   background-position: center;
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 #vijaysalesImage{
   background-image: url("./assets/vijaysales-clone.png") ;
   background-position: center;
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 .project button{
   padding: 10px;
@@ -184,6 +192,89 @@ margin: 0 0 0 0;
   #footer{
     height: 10vh;
     background-color: #150050;
-    padding: 5px 30px 0 30px;
+    padding: 0px 30px 0 30px;
+    text-align: center;
+  }
+  #footer p{
+    margin: 0px;
   }
 
+  @media only screen and (max-width: 1300px) {
+    .App {
+      width: 100%;
+      margin: auto;
+    }
+    #navbar{
+      width: 100%;
+      left: 0%;
+    }
+  }
+
+
+  .dropdown{
+    display: none;
+  }
+  @media screen and (max-width: 800px) {
+    #navbarRight a:not(:first-child) {display: none;}
+    #navbarRight a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    #navbarRight{
+      display: none;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      width: 20%;
+      text-align: right;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 20px;
+      background-color: #000000;
+      min-width: 100px;
+      padding: 12px 16px;
+      z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      font-size: 30px;
+    }
+
+    #intro{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    #mainSection{
+      height: 120vh;
+    }
+    #about{
+      height: 120vh;
+    }
+    #projects{
+      height: 200vh;
+      background-color: #150050;
+      padding: 5px 0px 0 0px;
+    }
+    #projectsDiv{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      height: 90%;
+      grid-gap: 40px;
+    }
+    .projectImage{
+      height: 50%;
+      border-top-left-radius: inherit;
+      border-top-right-radius: inherit;
+    }
+  }
