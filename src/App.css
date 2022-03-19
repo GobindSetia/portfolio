@@ -8,6 +8,20 @@ body{
     margin: 0px auto;
     
   }
+  #resumeDownload>button{
+    padding: 15px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background-color: #a400fc;
+    color: white;
+    width: 150px;
+  }
+  #resumeDownload>button:hover{
+    opacity: 0.8;
+  }
 .sectionHeading{
 font-size: 30px;
 text-align: center;
@@ -178,6 +192,14 @@ margin: 0 0 0 0;
   background-color: #000000;
   color: white;
 }
+.projectDetail>div>button:nth-child(odd)>a{
+  color: black;
+  text-decoration: none;
+}
+.projectDetail>div>button:nth-child(even)>a{
+  color: white;
+  text-decoration: none;
+}
 
 
   /*Contact Section*/
@@ -206,7 +228,7 @@ margin: 0 0 0 0;
     margin: 0px;
   }
 
-  @media only screen and (max-width: 1300px) {
+  @media only screen and (max-width: 1100px) {
     .App {
       width: 100%;
       margin: auto;
@@ -222,7 +244,7 @@ margin: 0 0 0 0;
     display: none;
   }
   
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1100px) {
     #navbarRight{
       display: none;
     }

@@ -15,8 +15,8 @@ export const Projects = () => {
                 <p>Flight booking functionality of travelocity.com. Allows selection of To-From cities and travel date. Fetched flights can be sorted based on the price.</p>
                 <p>HTML | CSS | JS</p>
                 <div>
-                  <button><CloudDoneIcon/><br/>Deployed</button>
-                  <button><GitHubIcon/><br/>GitHub</button>  
+                  <button onClick={()=>{window.open("https://travelocity-clone-masai.netlify.app/", "_blank")}}><CloudDoneIcon/><br/>Deployed</button>
+                  <button onClick={()=>{window.open("https://github.com/nHari9/travelocity-clone", "_blank")}}><GitHubIcon/><br/>GitHub</button>  
                 </div> 
               </div>
             </div>
@@ -28,8 +28,8 @@ export const Projects = () => {
                 <p>Mobile ordering functionality of vijaysales.com. Uses APIs to fetch products to be displayed on index-page.</p>
                 <p>HTML | CSS | JS </p>
                 <div>
-                  <button><CloudDoneIcon/><br/>Deployed</button>
-                  <button><GitHubIcon/><br/>GitHub</button>             
+                  <button onClick={()=>{window.open("https://vijaysales-clone-masai.netlify.app/", "_blank")}}><CloudDoneIcon/><br/>Deployed</button>
+                  <button onClick={()=>{window.open("https://github.com/GobindSetia/vijaysales-clone", "_blank")}}><GitHubIcon/><br/>GitHub</button>             
                 </div>
               </div>
             </div>

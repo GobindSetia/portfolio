@@ -9,8 +9,10 @@ export const Navbar = () => {
             <img src={home} alt="" height={"100%"} />
           </a>
         </div>
+        
 
         <div id="navbarRight">
+        <div id="resumeDownload"><button onClick={()=>{window.open("https://drive.google.com/file/d/1YvSOSCy1api8yRDmKo-6o4SxEnDOkhc3/view", "_blank")}}>Resume  ▼</button></div>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
@@ -24,6 +26,7 @@ export const Navbar = () => {
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
+          <a href="https://drive.google.com/file/d/1YvSOSCy1api8yRDmKo-6o4SxEnDOkhc3/view" target="_blank">Resume  ▼</a>
           <a href="https://medium.com/@gobindsetia" target="_blank">Blog</a>
           </div>
         </div>
