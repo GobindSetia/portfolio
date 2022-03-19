@@ -15,8 +15,8 @@ export const Projects = () => {
                 <p>Flight booking functionality of travelocity.com. Allows selection of To-From cities and travel date. Fetched flights can be sorted based on the price.</p>
                 <p>HTML | CSS | JS</p>
                 <div>
-                  <button><CloudDoneIcon/><br/>Deployed Link</button>
-                  <button><GitHubIcon/><br/>GitHub Repository</button>  
+                  <button><CloudDoneIcon/><br/>Deployed</button>
+                  <button><GitHubIcon/><br/>GitHub</button>  
                 </div> 
               </div>
             </div>
@@ -28,8 +28,8 @@ export const Projects = () => {
                 <p>Mobile ordering functionality of vijaysales.com. Uses NodeJs backend server to fetch products to be displayed on index-page.</p>
                 <p>HTML | CSS | JS | Express | MongoDB</p>
                 <div>
-                  <button><CloudDoneIcon/><br/>Deployed Link</button>
-                  <button><GitHubIcon/><br/>GitHub Repository</button>             
+                  <button><CloudDoneIcon/><br/>Deployed</button>
+                  <button><GitHubIcon/><br/>GitHub</button>             
                 </div>
               </div>
             </div>
