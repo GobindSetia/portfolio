@@ -8,10 +8,10 @@ export const About = () => {
       <div id="introText">
         <p>Hello there</p>
         <p>
-          I am Gobind Setia, a graduate in B.Tech.(CSE) from Amity University
-          Noida. I have worked as an SEO executive for an year. Now I am a
-          student of Full Stack Web Developer at Masai School.
+          I am from Haryana, India, a graduate in B.Tech.(CSE) from Amity University
+          Noida. I have worked as an SEO executive for an year, implementing on-page and off-page optimization on webpages.  
         </p>
+        <p>Currently, I am a student of Full Stack Web Development at <a href="https://masaischool.com/" target="_blank">Masai School</a>, specializing in MERN Stack.</p>
       </div>
       <div id="techStack">
         <div className="loader">

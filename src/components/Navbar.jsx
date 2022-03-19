@@ -14,13 +14,17 @@ export const Navbar = () => {
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
+          <a href="https://medium.com/@gobindsetia" target="_blank">Blog</a>
         </div>
-        <div className="dropdown">
+        <div>
+        </div>
+        <div className="dropdown">     
           <span><MenuIcon style={{ fontSize: 50 }}/></span>
           <div className="dropdown-content">
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
+          <a href="https://medium.com/@gobindsetia" target="_blank">Blog</a>
           </div>
         </div>
       </div>

@@ -52,7 +52,7 @@ margin: 0 0 0 0;
   #mainSection{
     height: 100vh;
     background-color: #150050;
-    padding-top: 10%;
+    padding-top: 15%;
     z-index: -5;
   }
 
@@ -106,6 +106,9 @@ margin: 0 0 0 0;
     font-size: 20px;
     margin: auto; 
     text-align: center;
+  }
+  #introText>p>a{
+    color: white;
   }
   #techStack{
     margin: 20% 0px 0px 0px;
@@ -227,7 +230,7 @@ margin: 0 0 0 0;
       position: relative;
       display: inline-block;
       width: 20%;
-      text-align: right;
+      text-align: center;
     }
     
     .dropdown-content {
@@ -238,9 +241,16 @@ margin: 0 0 0 0;
       min-width: 100px;
       padding: 12px 16px;
       z-index: 1;
+      box-shadow: rgba(255, 255, 255, 0.3) 0px 50px 100px -20px, rgba(248, 246, 246, 0.3) 0px 30px 60px -30px, rgba(206, 206, 206, 0.35) 0px -2px 6px 0px inset;
     }
     
     .dropdown:hover .dropdown-content {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      font-size: 30px;
+    }
+    .dropdown:active .dropdown-content {
       display: flex;
       flex-direction: column;
       color: white;
@@ -297,6 +307,9 @@ margin: 0 0 0 0;
     }
     .projectImage{
       height: 50%;
+    }
+    #mainSection{
+      padding-top: 10%;
     }
   }
   @media screen and (max-width: 400px) {

@@ -25,8 +25,8 @@ export const Projects = () => {
               <div className="projectImage" id="vijaysalesImage"></div>
               <div className="projectDetail">
                 <h4>Clone of VijaySales.com</h4>
-                <p>Mobile ordering functionality of vijaysales.com. Uses NodeJs backend server to fetch products to be displayed on index-page.</p>
-                <p>HTML | CSS | JS | Express | MongoDB</p>
+                <p>Mobile ordering functionality of vijaysales.com. Uses APIs to fetch products to be displayed on index-page.</p>
+                <p>HTML | CSS | JS </p>
                 <div>
                   <button><CloudDoneIcon/><br/>Deployed</button>
                   <button><GitHubIcon/><br/>GitHub</button>             
