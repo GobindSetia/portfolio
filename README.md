@@ -1,4 +1,4 @@
-## Screensho
+## Screenshot
 
 ![Main Section](/README/SS1.gif "Main Section of portfolio")
 
