@@ -11,7 +11,7 @@ export const About = () => {
           I am from Haryana, India, a graduate in B.Tech.(CSE) from Amity University
           Noida. I have worked as an SEO executive for an year, implementing on-page and off-page optimization on webpages.  
         </p>
-        <p>Currently, I am a student of Full Stack Web Development at <a href="https://masaischool.com/" target="_blank">Masai School</a>, specializing in MERN Stack.</p>
+        <p>Currently, I am a student of Full Stack Web Development at <a href="https://masaischool.com/" target="_blank" rel="noreferrer">Masai School</a>, specializing in MERN Stack.</p>
         <div id="resumeDownload"><button onClick={()=>{window.open("https://drive.google.com/file/d/1YvSOSCy1api8yRDmKo-6o4SxEnDOkhc3/view", "_blank")}}>Resume</button></div>
       </div>
       <div id="techStack">
