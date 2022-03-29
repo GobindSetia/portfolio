@@ -209,6 +209,7 @@ margin: 0 0 0 0;
     padding: 5px 30px 0 30px;
   }
 #contactLinks{
+  margin: 10% auto;
   display: flex;
   justify-content: space-around;
 }
@@ -216,13 +217,7 @@ margin: 0 0 0 0;
   margin: auto;
   text-align: center;
 }
-#contactContainer{
-  display: flex;
-  flex-direction: row;
-}
-#contactContainer>div{
-  width: 50%;
-}
+
 
 
 
