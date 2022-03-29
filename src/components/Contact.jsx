@@ -18,12 +18,6 @@ export const Contact = () => {
           <p>Email: gobind.setia@gmail.com</p>
           <p>Contact: +917056403400</p>
       </div>
-      <form action="" name="contact v1" method="post" data-netlify="true" onSubmit="submit" netlify data-netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="contact v1" />
-        <input type="email" name="email" placeholder="Your Email Address"/>
-        <textarea name="description" rows="2" placeholder="How may I help you?"></textarea>
-        <button type="submit">Send</button>
-      </form>
     </section>
   );
 };
