@@ -214,10 +214,43 @@ margin: 0 0 0 0;
   justify-content: space-around;
 }
 #contactInfo{
-  margin: auto;
-  text-align: center;
+  width: 50%;
 }
 
+#infoAndForm{
+  display: flex;
+}
+
+#infoAndForm form{
+  text-align: right;
+}
+
+#infoAndForm input{
+  width: 50%;
+  text-align: center;
+  border: 1px solid transparent;
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+#infoAndForm textarea{
+  width: 50%;
+  text-align: center;
+  border: 1px solid transparent;
+  margin-top: 1%;
+  border-radius: 5px;
+}
+#infoAndForm button{
+  width: 51%;
+  text-align: center;
+  border: 1px solid transparent;
+  margin-top: 1%;
+  border-radius: 5px;
+  background-color: #a400fc;
+  color: white;
+}
+#infoAndForm button:hover{
+  opacity: 0.8;
+}
 
 
 
