@@ -8,7 +8,7 @@ export const About = () => {
       <div id="introText">
         <p>Hello there</p>
         <p>
-          I am from Haryana, India, a graduate in B.Tech.(CSE) from Amity University
+          I am a graduate in B.Tech.(CSE) from Amity University
           Noida. I have worked as an SEO executive for an year, implementing on-page and off-page optimization on webpages.  
         </p>
         <p>Currently, I am a student of Full Stack Web Development at <a href="https://masaischool.com/" target="_blank" rel="noreferrer">Masai School</a>, specializing in MERN Stack.</p>

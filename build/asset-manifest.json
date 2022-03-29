@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1eae510a.css",
-    "main.js": "/static/js/main.c89b3acf.js",
+    "main.css": "/static/css/main.88bbcc29.css",
+    "main.js": "/static/js/main.02e09c48.js",
     "static/js/787.2faa1b18.chunk.js": "/static/js/787.2faa1b18.chunk.js",
     "static/media/travelocity-clone.png": "/static/media/travelocity-clone.21b667859e8fb02a92ab.png",
     "static/media/vijaysales-clone.png": "/static/media/vijaysales-clone.8c5a172dd3b515a3c2a0.png",
     "static/media/GobindSetia.png": "/static/media/GobindSetia.404ae347e28b60a9918b.png",
     "static/media/home.png": "/static/media/home.fdb491661efa0c0e60a4.png",
     "index.html": "/index.html",
-    "main.1eae510a.css.map": "/static/css/main.1eae510a.css.map",
-    "main.c89b3acf.js.map": "/static/js/main.c89b3acf.js.map",
+    "main.88bbcc29.css.map": "/static/css/main.88bbcc29.css.map",
+    "main.02e09c48.js.map": "/static/js/main.02e09c48.js.map",
     "787.2faa1b18.chunk.js.map": "/static/js/787.2faa1b18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1eae510a.css",
-    "static/js/main.c89b3acf.js"
+    "static/css/main.88bbcc29.css",
+    "static/js/main.02e09c48.js"
   ]
 }
