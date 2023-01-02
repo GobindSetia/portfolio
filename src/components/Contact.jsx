@@ -43,40 +43,6 @@ export const Contact = () => {
             />
           </a>
         </span>
-        <span>
-          <a
-            href="https://join.skype.com/invite/uhe7dMrbvdgC"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="https://img.icons8.com/color/48/000000/skype--v1.png"
-              alt=""
-            />
-          </a>
-        </span>
-      </div>
-      <div id="infoAndForm">
-        <div id="contactInfo">
-          <p>Address: Fatehabad, Haryana(125051)</p>
-          <p>Email: gobind.setia@gmail.com</p>
-          <p>Contact: +917056403400</p>
-        </div>
-        <div>
-          <form method="post">
-            <input type="hidden" name="form-name" value="contact" />
-
-              <input type="text" name="name" placeholder="Your Name" />
-
-              <input type="email" name="email" placeholder="Your Email" />
-
-              <textarea name="message" placeholder="How can I help you?"/>
-        
-            
-
-            <button type="submit">Send</button>
-          </form>
-        </div>
       </div>
     </section>
   );
