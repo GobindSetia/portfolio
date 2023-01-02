@@ -1,7 +1,11 @@
 
+import { useEffect } from "react";
 import MyPic from  "../assets/GobindSetia.png"
+import { typeWriter } from "../utils/typewriter";
 import "./imageBox.css";
+
 export const Home = () => {
+setInterval(typeWriter,200);
   return (
     <section id="mainSection">
       <div id="intro">

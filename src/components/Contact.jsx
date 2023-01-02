@@ -1,3 +1,4 @@
+import ContactForm from "./ContactForm";
 import "./loader.css";
 
 export const Contact = () => {
@@ -43,6 +44,15 @@ export const Contact = () => {
             />
           </a>
         </span>
+      </div>
+      <div id="infoAndForm">
+      <div id="contactInfo">
+          <p>Address: Fatehabad, Haryana(125051)</p>
+          <p>Email: <a href="mailto:gobind.setia@gmail.com">gobind.setia@gmail.com</a></p>
+        </div>
+        <div>
+        <ContactForm></ContactForm>
+        </div>
       </div>
     </section>
   );

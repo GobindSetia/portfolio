@@ -1,22 +1,35 @@
+import { useEffect } from 'react';
 import './App.css'
 import { Navbar } from './components/Navbar'
-import { Home } from './components/MainSection'
-import { About } from './components/About'
-import { Contact } from './components/Contact'
-import { Projects } from './components/Projects'
-import { Footer } from './components/Footer'
-import { typeWriter } from './utils/typewriter';
+import { AllRoutes } from './Routes/Routes'
 
-setInterval(typeWriter,100);
 function App() {
+  
+  const getData=()=>{
+    fetch('data.json'
+    ,{
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+    }
+    )
+      .then(function(response){
+        console.log(response)
+        return response.json();
+      })
+      .then(function(myJson) {
+        console.log(myJson);
+      });
+  }
+  useEffect(()=>{
+    getData()
+  },[])
+
   return (
     <div className="App">
       <Navbar/>
-      <Home/>
-      <About/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <AllRoutes/>
     </div>
   );
 }

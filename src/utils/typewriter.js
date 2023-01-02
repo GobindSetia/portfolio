@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Gobind Setia Full Stack Web Developer';
+var txt = 'Gobind Setia Software Developer';
 export function typeWriter() {
   if (i < 13) {
     document.getElementById("myName").innerHTML += txt[i];
